@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/******Variáveis******/
+/******Estilizações******/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #f4f4f4 url(../images/fundo.png) repeat-x;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+  width: 80%;
+  margin: 3% 0 0 10%;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 150px;
+}
+
+nav ul li {
+  margin: 15px;
+  list-style-type: none;
+}
+
+nav ul li a {
+  color: #A87014;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: green;
+  text-decoration: underline;
+}
+/*# sourceMappingURL=style.css.map */
